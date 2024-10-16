@@ -1,9 +1,7 @@
 module.exports = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ["avatars.githubusercontent.com"],
-    unoptimized: true,
   },
-  assetPrefix: '/portfolio/',
-  basePath: '/portfolio',
+  output: "standalone",
 };
