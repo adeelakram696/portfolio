@@ -139,7 +139,7 @@ export const experience: ExperienceType[] = [
     role: "Principal Software Engineer",
     company: "Venturedive pvt ltd.",
     companyLogo: "/img/icons/common/vd.jpg",
-    date: "Apr 2016 - July 2024",
+    date: "Apr 2016 - July 2021",
     desc: "I have successfully delivered numerous projects using React.js, Node.js, and Express.js, leading a team of six junior developers while mentoring them on best coding practices. I built scalable web applications with responsive UI using CSS3, SASS, and LESS, and implemented state management solutions with Redux and Context API. My work also involved developing and integrating RESTful APIs and GraphQL, as well as leading API development and third-party integrations. Through combining technical expertise with leadership, I consistently delivered efficient, high-quality projects while fostering growth within my team.​",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
