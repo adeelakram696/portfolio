@@ -157,25 +157,88 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "ThirdParty Funders integrations",
+    desc: `Developed APIs and scheduler on ExpressJS to get the submission ID, fetch data from monday.com and transform it according to required thirdparty payload then submit it and add activity followup log with responses.
+    Tech: Expressjs, Axios, typescript, node-cron, moment`,
+    link: "https://approvd-company.monday.com/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Dashboards on Monday.com",
+    desc: `Developed multiple dashboards for brokers, Admins, Managers for daily activity, KPI, reports from Scratch using monday.com GRAPHQL APIs.
+    Tech: ReactJS, Antd, Scss, Javascript, Git, Axios, dayjs`,
+    link: "https://approvd-company.monday.com/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Tradeaze UK - for Deliveries",
+    desc: `Developed new features which raised the bussiness and clients, also increase jobs in rider by smooth job assigning.
+    Tech: ReactJS, React.js, Node.js, ExpressJS, Typescript, NXJS, Monorepo, Postgresql, CSS, ChakraUI, Docker, Git/GitHub, API Development, datetime-fns, serverless, NXjs, mono-repo`,
+    link: "https://www.tradeaze.uk/#features",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Clientshare UK - for Supplier Client relationship",
+    desc: `Increased Performance by 60% after converting the application into SPA and responsive from old tech stack. improved response time. Further maintained the product
+    Tech: ReactJS, Redux toolkit, Laravel Mix, Webpack, Scss, Styled component, Git/GitHub, moment`,
+    link: "https://www.myclientshare.com/premium",
+  },
+  {
+    name: "OverJet — AI visualization for Dentists",
+    desc: `Added Visualization on full mouth xray FMX on Frontend using React and canvas with integration of AI data response coming through API.
+    Tech: React, Redux, Axios, Canvas, D3.js`,
+    link: "https://www.overjet.com/",
+  },
+  {
+    name: "Carbon Emission - C6V",
+    desc: `Developed from scratch to deployment, Web Application of carbon points marketplace to sell and purchase carbon points in industries to manage their emissions
+    Tech: React, Redux, Axios, Expressjs, serverless, Antd, Postgres, Lambda, Amplify, DynamoDB, Lerna, mono-repo, StyledComponent`,
+  },
+  {
+    name: "Load Collection Company — SIRC",
+    desc: `Developed from scratch to deployment, seperate portals for admin and marchant with Role base access and user management, registrations, vehicle managment and tracking, multi-language, RTL - LTR layout.
+    Tech: React, Redux, Axios, Expressjs, serverless, Antd, Postgres, Amplify, Lambda, StyledComponent`,
+    link: "https://sirc.sa/",
+  },
+  {
+    name: "Switch N CO Admin — Health Plateform",
+    desc: `Created dashboard for members management and bookings management with UI revamp
+    Tech: React, Redux, Axios, styled-component, scss`,
+  },
+  {
+    name: "TeleHealth - Connect Doctors with Pateints",
+    desc: `Developed from scratch to deployment, it was quick development project in time of CORONA to connect corona symptoms patients with doctor having privacy remotely. it was successfully used for that purpose by Govt of pakistan.
+    Tech: React, Redux, Axios, Expressjs, Antd, Postgres, scss, encryptions`,
+  },
+  {
+    name: "Vistajet — Booking Revamp",
+    desc: `Revamp the product with CMS integration, re-design. it was a booking application for thier niche customers.
+    Tech: React, Redux, Axios, Antd, modules, CMS `,
+    link: "https://www.vistajet.com/en/",
+  },
+  {
+    name: "Vistajet — GlobalView Itinerary Module",
+    desc: `Vistajet internal Module to manage itinerary bookings. developed from scratch with scalable, testable code having 90% test coverage, optimized, linted code.
+    Tech: React, Redux, Axios, Antd, Jest, mocha, sinon, `,
+    link: "https://www.vistajet.com/en/",
+  },
+  {
+    name: "Vistajet — Customer Booking",
+    desc: `Vistajet itenerary booking application for Customers. Team work to develop, manage 60% test coverage, improved performance by time and written linted quality code.
+    Tech: React, Redux, Axios, Antd, Jest, mocha, sinon, `,
+    link: "https://www.vistajet.com/en/",
+  },
+  {
+    name: "TNB Vibrant News- Malaysia",
+    desc: `Developed Hybrid App from scratch for Android, IOS in phonegap JS, it was on-site development, with great client team work we launched the application on time. it was Local internal news application launched in 2015.
+    Tech: Phonegap, JS`,
+  },
+  {
+    name: "Inhouse Relocation - SIRVA",
+    desc: `Formally known as inhouse relocation then aquired by SIRVA, it was an web application for vendors, users and admins to manage relocation management and making the process smooth.
+    Tech: PHP, Yii, Css, html, AWS ec2`,
+    link: "https://www.sirva.com/",
+  },
+  {
+    name: "Other projects",
+    desc: `Gemini Club Network (Golf club, UK) 2014, Golf Registration Scheme (UK) 2014`,
   },
 ];
 
