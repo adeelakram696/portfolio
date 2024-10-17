@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Adeel",
   description:
     "I'm a passionate Senior Full Stack web developer specializing in web development across multiple scalable projects and products. Throughout my career, I’ve worked on both frontend and backend technologies, focusing on creating efficient, maintainable, and high-performing applications. I have expertise in React, JavaScript, API integration, and cloud-based services, and have contributed to projects involving complex API integrations, component migration, and performance optimization.",
-  resumeLink: "#",
+  resumeLink: "/resume/Adeel_akram_Resume.pdf",
 };
 
 export const openSource = {
