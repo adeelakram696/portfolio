@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Adeel Akram",
-  title: "Hi all, I'm Adeel",
+  title: "Hi all, I am Adeel",
   description:
-    "I'm a passionate Senior Full Stack web developer specializing in web development across multiple scalable projects and products. Throughout my career, I’ve worked on both frontend and backend technologies, focusing on creating efficient, maintainable, and high-performing applications. I have expertise in React, JavaScript, API integration, and cloud-based services, and have contributed to projects involving complex API integrations, component migration, and performance optimization.",
+    "A Full Stack Engineer with 12+ years of experience building scalable web applications across fintech, healthtech, AI, logistics, and aviation. I work with JavaScript, TypeScript, React, Node.js, and cloud services. Currently working as a Staff Engineer at Beam.AI on AI agent workflows and integrations.",
   resumeLink: "/resume/Adeel_akram_Resume.pdf",
 };
 
@@ -36,15 +36,15 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "SENIOR FULL STACK DEVELOPER WHO WANTS TO EXPLORE",
+  subTitle: "STAFF FULL STACK ENGINEER WITH 12+ YEARS EXPERIENCE",
   data: [
     {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive SPA Applications in React"),
-        emoji("⚡ Building RESTful APIs in ExpressJS"),
-        emoji("⚡ Building Scalable, Testable Web Application"),
+        emoji("⚡ Building responsive SPA Applications in React and Next.js"),
+        emoji("⚡ Building RESTful APIs and GraphQL services in Node.js"),
+        emoji("⚡ Building Scalable, Testable Web Applications on AWS"),
       ],
       softwareSkills: [
         {
@@ -60,8 +60,20 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
+          skillName: "Nextjs",
+          iconifyTag: "logos:nextjs-icon",
+        },
+        {
+          skillName: "Nodejs",
+          iconifyTag: "logos:nodejs-icon",
+        },
+        {
           skillName: "ExpressJS",
           iconifyTag: "skill-icons:expressjs-light",
+        },
+        {
+          skillName: "Redux",
+          iconifyTag: "logos:redux",
         },
         {
           skillName: "CSS",
@@ -90,6 +102,14 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Postgres",
           iconifyTag: "logos:postgresql",
+        },
+        {
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql",
+        },
+        {
+          skillName: "MongoDB",
+          iconifyTag: "logos:mongodb-icon",
         },
         {
           skillName: "GraphQL",
@@ -129,33 +149,49 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Staff ML & Backend Engineer",
+    company: "Beam.AI (REMOTE)",
+    companyLogo: "/img/icons/common/beam.png",
+    date: "Jan 2025 - Present",
+    desc: "Building AI agent workflows and managing integrations (GitHub, Stripe, Salesforce). Built the automated testing framework from scratch taking coverage from 0% to 67%. Automated the integration development process reducing it from 5 days to 1 day. Working on an autotuner module for self-optimizing AI agent workflows.",
+  },
+  {
+    role: "Senior Technical Lead",
+    company: "Z2C Limited, Karachi",
+    companyLogo: "/img/icons/common/z2c.png",
+    date: "Jan 2025 - Mar 2025",
+    desc: "Analyzed product infrastructure and optimized costs. Reduced database storage from 900GB to 300GB through data analysis. Eliminated abandoned EC2 instances cutting unnecessary infrastructure costs. Conducted workflow and architectural audits to resolve inefficiencies.",
+  },
+  {
     role: "Senior Fullstack Engineer",
-    company: "Founder and lightning ltd UK (REMOTE)",
+    company: "Founder and Lightning Ltd UK (REMOTE)",
     companyLogo: "/img/icons/common/f+l.jpeg",
-    date: "Aug 2021 - Present",
-    desc: "As a Senior Full Stack Developer, I specialize in building dynamic web applications using React.js and Node.js. My expertise in JavaScript (ES6+), HTML5, CSS3/SASS/LESS, and TypeScript ensures interactive, responsive user interfaces. I translate Figma designs into user-friendly components and manage state effectively with Redux and Context API. On the backend, I develop robust RESTful APIs and GraphQL solutions, deploying scalable applications via AWS. I streamline workflows using Webpack, Babel, Git, and Docker, and maintain high code quality with testing frameworks like Jest and Enzyme, excelling in Agile environments using Jira and Trello.",
+    date: "Jul 2021 - Dec 2024",
+    desc: "Built and maintained multiple products as a full stack developer working remotely with a London-based team. Worked across React, Node.js, TypeScript, GraphQL, and AWS. Delivered end-to-end features from frontend to backend with unit testing across projects including Tradeaze, ClientShare, and OverJet.",
   },
   {
     role: "Principal Software Engineer",
-    company: "Venturedive pvt ltd.",
+    company: "VentureDive Pvt Ltd.",
     companyLogo: "/img/icons/common/vd.jpg",
-    date: "Apr 2016 - July 2021",
-    desc: "I have successfully delivered numerous projects using React.js, Node.js, and Express.js, leading a team of six junior developers while mentoring them on best coding practices. I built scalable web applications with responsive UI using CSS3, SASS, and LESS, and implemented state management solutions with Redux and Context API. My work also involved developing and integrating RESTful APIs and GraphQL, as well as leading API development and third-party integrations. Through combining technical expertise with leadership, I consistently delivered efficient, high-quality projects while fostering growth within my team.​",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: "Apr 2016 - Aug 2021",
+    desc: "Grew from Software Engineer to Principal over 5 years. Led and delivered multiple products using React, Node.js, and Express.js. Mentored a team of junior developers on coding practices and quality standards. Built products from scratch including TeleHealth (COVID response) and SIRC (loan collection system) using serverless architecture.",
   },
   {
     role: "Software Engineer",
-    company: "Goodcore soft pvt ltd.",
+    company: "GoodCore Software Inc.",
     companyLogo: "/img/icons/common/gcs.jpeg",
-    date: "Jul 2013 - Apr 2016",
-    desc: "I began my career as a web developer, gaining extensive experience in managing multiple products, ensuring smooth operations, and achieving set goals. This laid a strong foundation for my proficiency as a web developer. I have worked with a variety of technologies, including PHP, PhoneGap, CSS, JavaScript, and ASP.NET, and had the opportunity to work onsite for a client in Malaysia, TNB (Tenaga Nasional Berhad), contributing to successful project development and implementation.​",
+    date: "Aug 2013 - Apr 2016",
+    desc: "Started my career as a web developer, managing multiple products across different technologies including PHP, JavaScript, and ASP.NET. Worked onsite in Malaysia for TNB (Tenaga Nasional Berhad). Built a strong foundation in full-stack development working with international clients from UK, Europe, and Malaysia.",
   },
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: "Beam.AI — AI Agent Platform",
+    desc: `AI agent platform to automate industry-level workflows. Managing integrations and Agent OS improvement. Built autotuner module and automated testing framework from 0 to 67% coverage.
+    Tech: JavaScript, LangChain, VectorDB, PostgreSQL, NATS, Event Broker`,
+    link: "https://beam.ai",
+  },
   {
     name: "ThirdParty Funders integrations",
     desc: `Developed APIs and scheduler on ExpressJS to get the submission ID, fetch data from monday.com and transform it according to required thirdparty payload then submit it and add activity followup log with responses.
@@ -170,14 +206,14 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Tradeaze UK - for Deliveries",
-    desc: `Developed new features which raised the bussiness and clients, also increase jobs in rider by smooth job assigning.
-    Tech: ReactJS, React.js, Node.js, ExpressJS, Typescript, NXJS, Monorepo, Postgresql, CSS, ChakraUI, Docker, Git/GitHub, API Development, datetime-fns, serverless, NXjs, mono-repo`,
+    desc: `Full stack development from frontend to backend with unit testing. Developed new features that grew the business and client base, improved job assignment flow for riders.
+    Tech: ReactJS, Node.js, ExpressJS, TypeScript, NX Monorepo, PostgreSQL, ChakraUI, Docker, Serverless`,
     link: "https://www.tradeaze.uk/#features",
   },
   {
     name: "Clientshare UK - for Supplier Client relationship",
-    desc: `Increased Performance by 60% after converting the application into SPA and responsive from old tech stack. improved response time. Further maintained the product
-    Tech: ReactJS, Redux toolkit, Laravel Mix, Webpack, Scss, Styled component, Git/GitHub, moment`,
+    desc: `Increased performance by 60% after converting the application into SPA and responsive design from the old tech stack. Improved response time and maintained the product.
+    Tech: ReactJS, Redux Toolkit, Laravel Mix, Webpack, SCSS, Styled Components`,
     link: "https://www.myclientshare.com/premium",
   },
   {
@@ -193,47 +229,47 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Load Collection Company — SIRC",
-    desc: `Developed from scratch to deployment, seperate portals for admin and marchant with Role base access and user management, registrations, vehicle managment and tracking, multi-language, RTL - LTR layout.
-    Tech: React, Redux, Axios, Expressjs, serverless, Antd, Postgres, Amplify, Lambda, StyledComponent`,
+    desc: `Developed from scratch to deployment. Separate portals for admin and merchant with role-based access, user management, registrations, vehicle management and tracking, multi-language, RTL/LTR layout.
+    Tech: React, Redux, Axios, ExpressJS, Serverless, Antd, PostgreSQL, Amplify, Lambda, Styled Components`,
     link: "https://sirc.sa/",
   },
   {
-    name: "Switch N CO Admin — Health Plateform",
-    desc: `Created dashboard for members management and bookings management with UI revamp
-    Tech: React, Redux, Axios, styled-component, scss`,
+    name: "Switch N CO Admin — Health Platform",
+    desc: `Created dashboard for members management and bookings management with UI revamp.
+    Tech: React, Redux, Axios, Styled Components, SCSS`,
   },
   {
-    name: "TeleHealth - Connect Doctors with Pateints",
-    desc: `Developed from scratch to deployment, it was quick development project in time of CORONA to connect corona symptoms patients with doctor having privacy remotely. it was successfully used for that purpose by Govt of pakistan.
-    Tech: React, Redux, Axios, Expressjs, Antd, Postgres, scss, encryptions`,
+    name: "TeleHealth — Connect Doctors with Patients",
+    desc: `Developed from scratch during COVID to connect patients with doctors remotely with privacy. Successfully used by the Government of Pakistan for that purpose.
+    Tech: React, Redux, Axios, ExpressJS, Antd, PostgreSQL, SCSS, Encryption`,
   },
   {
     name: "Vistajet — Booking Revamp",
-    desc: `Revamp the product with CMS integration, re-design. it was a booking application for thier niche customers.
-    Tech: React, Redux, Axios, Antd, modules, CMS `,
+    desc: `Revamped the product with CMS integration and re-design. Booking application for their niche customers.
+    Tech: React, Redux, Axios, Antd, CMS`,
     link: "https://www.vistajet.com/en/",
   },
   {
     name: "Vistajet — GlobalView Itinerary Module",
-    desc: `Vistajet internal Module to manage itinerary bookings. developed from scratch with scalable, testable code having 90% test coverage, optimized, linted code.
-    Tech: React, Redux, Axios, Antd, Jest, mocha, sinon, `,
+    desc: `Internal module to manage itinerary bookings. Developed from scratch with scalable, testable code having 90% test coverage.
+    Tech: React, Redux, Axios, Antd, Jest, Mocha, Sinon`,
     link: "https://www.vistajet.com/en/",
   },
   {
     name: "Vistajet — Customer Booking",
-    desc: `Vistajet itenerary booking application for Customers. Team work to develop, manage 60% test coverage, improved performance by time and written linted quality code.
-    Tech: React, Redux, Axios, Antd, Jest, mocha, sinon, `,
+    desc: `Itinerary booking application for customers. Developed as a team with 60% test coverage, improved performance and maintained quality linted code.
+    Tech: React, Redux, Axios, Antd, Jest, Mocha, Sinon`,
     link: "https://www.vistajet.com/en/",
   },
   {
-    name: "TNB Vibrant News- Malaysia",
-    desc: `Developed Hybrid App from scratch for Android, IOS in phonegap JS, it was on-site development, with great client team work we launched the application on time. it was Local internal news application launched in 2015.
-    Tech: Phonegap, JS`,
+    name: "TNB Vibrant News — Malaysia",
+    desc: `Developed hybrid app from scratch for Android and iOS using PhoneGap. On-site development in Malaysia, launched on time in 2015. Internal news application for Tenaga Nasional Berhad.
+    Tech: PhoneGap, JavaScript`,
   },
   {
-    name: "Inhouse Relocation - SIRVA",
-    desc: `Formally known as inhouse relocation then aquired by SIRVA, it was an web application for vendors, users and admins to manage relocation management and making the process smooth.
-    Tech: PHP, Yii, Css, html, AWS ec2`,
+    name: "Inhouse Relocation — SIRVA",
+    desc: `Formerly known as Inhouse Relocation, then acquired by SIRVA. Web application for vendors, users and admins to manage relocation processes.
+    Tech: PHP, Yii, CSS, HTML, AWS EC2`,
     link: "https://www.sirva.com/",
   },
   {
@@ -263,18 +299,21 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Adeel Akram",
   image: "https://avatars.githubusercontent.com/u/27729957?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  url: "https://adeelakram.com",
   keywords: [
     "Adeel",
     "Adeel Akram",
     "@adeelakram",
     "madeelakram",
     "Portfolio",
-    "Adeel Portfolio ",
+    "Adeel Portfolio",
     "Adeel Akram Portfolio",
-    "Senior React Developer",
-    "Senior Fullstack Developer",
-    "Senior Fullstack engineer",
-    "Web developer",
+    "Staff Software Engineer",
+    "Full Stack Developer",
+    "Full Stack Engineer",
+    "React Developer",
+    "Node.js Developer",
+    "TypeScript Developer",
+    "Web Developer",
   ],
 };
